@@ -33,31 +33,44 @@ nav a:hover{
   text-decoration: underline;
 }
 
-#Banner{
+.Banner{
   width: 100%
 
 }
 
 .Principal{
-  background: #CCCCCC;
   padding: 30px;
 }
 
-.Titulo-centralizado{
+.Titulo-principal{
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bold;
-  padding: 10px 0;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
 .paragrafo{
   text-align: center;
   font-size: 18px;
-  display: inline-block;
 }
 
 .paragrafo p{
   display: inline;
+  margin: 0 0 1em;
+}
+.paragrafo strong{
+  font-weight: bold;
+}
+
+.paragrafo em{
+  font-style: italic;
 }
 
 em strong{
